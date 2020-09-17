@@ -1,0 +1,11 @@
+{
+  "name": "geng-fansite",
+  "version": "1.0.0",
+  "description": "Minji's gen.g fansite",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Minji Kim",
+  "license": "ISC"
+}
