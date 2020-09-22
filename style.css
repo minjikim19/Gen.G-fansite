@@ -1,3 +1,7 @@
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
 .navbar {
   overflow: hidden;
   background-color: black;
@@ -22,18 +26,117 @@
   color: white;
 }
 
-.navbar img {
-  float: left;
-  background-color: white;
-  padding: 16px 16px;
+.navbar a.first {
+  margin-left: 40%;
 }
 
-.titlebar {
-  padding: 14px;
-  text-align: center;
+header {
+  padding-left: 17%;
+  padding-right: 17%;
+  background-color: #aa8a00;
+  height: 100px;
+  position: relative;
+}
+
+header h2 {
+  margin: 0px auto;
+  padding-top: 10px;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 35px;
+}
+
+.logo {
+  color: rgba(255, 237, 158, 0.2);
+  font-size: 100px;
+  font-weight: 900;
+  font-family: "Coda", cursive;
+  position: absolute;
+  right: 350px;
+  bottom: -20px;
+}
+
+#slideback {
   background-color: black;
 }
 
-.body {
-    background-color: black;
+#slideshow {
+  overflow: hidden;
+  height: 600px;
+  width: 1300px;
+  margin: 0 auto;
 }
+
+.slide-wrapper {
+  width: 5200px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 600px;
+  width: 1300px;
+  align-items: center;
+}
+
+.slideimg {
+  width: 1300px;
+}
+
+@-webkit-keyframes slide {
+  20% {
+    margin-left: 0px;
+  }
+  30% {
+    margin-left: -1300px;
+  }
+  50% {
+    margin-left: -1300px;
+  }
+  60% {
+    margin-left: -2600px;
+  }
+  70% {
+    margin-left: -2600px;
+  }
+  80% {
+    margin-left: -3900px;
+  }
+  90% {
+    margin-left: -3900px;
+  }
+}
+
+.links {
+  height: 150px;
+  background-color: darkgray;
+}
+
+.footer {
+  height: 50px;
+  background-color: black;
+  margin: 0px auto;
+  overflow: auto;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.copy {
+  color: white;
+  float: left;
+  margin-left: 50px;
+}
+
+.tags {
+  color: white;
+  margin-right: 180px;
+  display: inline-block;
+}
+
+.footer img {
+  width: 30px;
+  float: right;
+  margin-right: 50px;
+}
+
