@@ -53,8 +53,8 @@ header h2 {
   font-weight: 900;
   font-family: "Coda", cursive;
   position: absolute;
-  right: 350px;
-  bottom: -20px;
+  right: 20vw;
+  bottom: -1.1vw;
 }
 
 #slideback {
